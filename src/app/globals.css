@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('/fonts/NeueHaasGroteskDisplayPro-Regular.woff2') format('woff2'),
+       url('/fonts/NeueHaasGroteskDisplayPro-Regular.woff') format('woff');
+  
+}
+/* Make it global */
+.neue-pro {
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
