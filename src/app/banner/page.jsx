@@ -45,7 +45,7 @@ export default function Banner() {
       </div>
 
       {/* Navigation Arrows */}
-      <button className="absolute  top-1/2 -translate-y-1/2 bg-white px-3 sm:px-4 py-4 sm:py-6 shadow-md transition">
+      <button className="absolute  top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4  lg:py-6 shadow-md transition">
         <Image
           src="/images/LeftArrow.png"
           alt="Left Arrow"
@@ -54,7 +54,7 @@ export default function Banner() {
           className="w-4 sm:w-5 md:w-6 h-auto"
         />
       </button>
-      <button className="absolute right-0 top-1/2 -translate-y-1/2 bg-white px-3 sm:px-4 py-4 sm:py-6 shadow-md transition">
+      <button className="absolute right-0 top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4  lg:py-6 shadow-md transition">
         <Image
           src="/images/RightArrow.png"
           alt="Right Arrow"
