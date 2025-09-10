@@ -14,8 +14,8 @@ export default function CategoryFlex() {
               fill
               className="object-cover "
             />
-            <div className="absolute top-6 left-6 text-black">
-              <p className="text-[14px] md:text-[15px] font-normal mb-2 text-[#2D2D2D]">
+            <div className="absolute top-8 left-6 text-black">
+              <p className="text-[14px] md:text-[15px] font-normal  text-[#2D2D2D]">
                 356 Products
               </p>
               <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-6 lg:mb-[324px]">
@@ -42,7 +42,7 @@ export default function CategoryFlex() {
                 fill
                 className="object-cover "
               />
-              <div className="absolute top-6 left-6 text-black">
+              <div className="absolute top-8 left-6 text-black">
                 <p className="text-[14px] md:text-[15px] font-normal  text-[#2D2D2D]">356 Products</p>
                 <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-[11px] ">Mens</h2>
                 <p className="text-sm font-normal text-[#5B5B5B] xl:text-[18px] mb-[20px] md:mb-[45px] ">

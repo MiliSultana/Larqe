@@ -6,6 +6,7 @@ import AfterBanner from "./afterbanner/page";
 import BeforeFooter from "./beforefooter/page";
 import Footer from "./footer/page";
 import BestCategori from "./best-categori/page";
+import BestSellar from "./best-sellar/page";
 
 
 export default function RootLayout({}) {
@@ -15,6 +16,7 @@ export default function RootLayout({}) {
         <Nav />
         <Banner />
         <AfterBanner />
+        <BestSellar />
         <BestCategori />
         <BeforeFooter />
         <Footer />

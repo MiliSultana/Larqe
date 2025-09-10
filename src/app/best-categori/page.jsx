@@ -23,9 +23,10 @@ export default function BestCategori() {
         </p>
       </div>
       <div className="container mx-auto text-[21px] font-semibold text-[#000000] grid  sm:grid-cols-2  lg:grid-cols-4 gap-6 px-6 lg:px-12 2xl:px-[182px]">
-        <div><Image
+        <div ><Image
           src="/images/BestCategory1.png"
           alt="Category 1"
+        
           width={300}
           height={300}
           className=" object-cover mx-auto"
