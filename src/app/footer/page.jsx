@@ -87,7 +87,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="container mx-auto px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-[182px] pb-12">
+      <div className="container mx-auto px-6 lg:px-12 2xl:px-[182px]  pb-12">
         <div className="border-t border-[#000000]/14 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-black gap-4">
           <p className="text-[13px] font-normal text-[#5B5B5B]/71 text-center md:text-left">
             Copyright 2025 © Larqe Shopping Website. All rights reserved. Powered by Viacon.
@@ -101,7 +101,7 @@ export default function Footer() {
             className="object-contain"
           />
 
-          <div className="flex flex-wrap justify-center md:justify-end gap-4 font-normal text-[13px] text-[#5B5B5B]/71">
+          <div className="flex flex-wrap justify-center md:justify-end xl:gap-7 gap-2 font-normal text-[13px] text-[#5B5B5B]/71">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms and Conditions</Link>
             <Link href="#">Returns Policy</Link>

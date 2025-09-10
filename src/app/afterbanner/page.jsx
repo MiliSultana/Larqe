@@ -5,7 +5,7 @@ export default function CategoryFlex() {
   return (
     <section className="bg-white w-full text-black py-12 md:py-16 lg:py-20 2xl:py-[78px]">
       <div className="container mx-auto  px-6 lg:px-12 2xl:px-[182px]">
-        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6">
+        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 neue-pro">
           {/* Left Side - Women */}
           <div className="relative w-full h-[400px] sm:h-[500px] lg:w-[400px] xl:w-[474px] lg:h-[650px] flex-shrink-0">
             <Image
@@ -21,7 +21,7 @@ export default function CategoryFlex() {
               <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-6 lg:mb-[324px]">
                 Women
               </h2>
-              <ul className="space-y-[5px] text-[16px] md:text-[18px] font-semibold text-[#5B5B5B]">
+              <ul className="space-y-[5px]  text-[16px] md:text-[18px] font-semibold text-[#5B5B5B]">
                 <li>Hand Bags &gt;</li>
                 <li>Office Bags &gt;</li>
                 <li>Cross Body Bags &gt;</li>
@@ -43,9 +43,9 @@ export default function CategoryFlex() {
                 className="object-cover "
               />
               <div className="absolute top-6 left-6 text-black">
-                <p className="text-[14px] md:text-[15px] font-normal neue-pro text-[#2D2D2D]">356 Products</p>
+                <p className="text-[14px] md:text-[15px] font-normal  text-[#2D2D2D]">356 Products</p>
                 <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-[11px] ">Mens</h2>
-                <p className="text-sm font-normal text-[#5B5B5B] neue-pro xl:text-[18px] mb-[20px] md:mb-[45px] ">
+                <p className="text-sm font-normal text-[#5B5B5B] xl:text-[18px] mb-[20px] md:mb-[45px] ">
                   Quis ipsum suspendisse ultrices gravida.
                 </p>
                 <ul className="space-y-[5px] text-[16px] md:text-[18px] font-semibold text-[#5B5B5B]">
@@ -68,7 +68,7 @@ export default function CategoryFlex() {
                   className="object-cover "
                 />
                 <div className="absolute top-6 left-6 text-black">
-                  <p className="text-[14px] md:text-[15px] font-normal neue-pro text-[#2D2D2D]">356 Products</p>
+                  <p className="text-[14px] md:text-[15px] font-normal  text-[#2D2D2D]">356 Products</p>
                   <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-6 lg:mb-[324px]">Footwear</h2>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function CategoryFlex() {
                   className="object-cover "
                 />
                 <div className="absolute top-6 left-6 text-black">
-                  <p className="text-[14px] md:text-[15px] font-normal neue-pro text-[#2D2D2D]">356 Products</p>
+                  <p className="text-[14px] md:text-[15px] font-normal text-[#2D2D2D]">356 Products</p>
                   <h2 className="text-[24px] md:text-[30px] font-bold tracking-[-1px] text-[#282828] mb-6 lg:mb-[324px]">Accessories</h2>
                 </div>
               </div>

@@ -16,16 +16,38 @@ export default function BeforeFooter() {
           </p>
 
           {/* Email + Button */}
-          <div className="flex flex-col sm:flex-row items-center sm:items-stretch mb-[33px] gap-3 sm:gap-0">
-            <input
-              type="email"
-              placeholder="Enter Email Address"
-              className="max-w-[417px] flex-1 px-[14px] py-[23px] sm:py-4 text-base sm:text-lg text-black/70 font-normal bg-white outline-none "
-            />
-            <button className="bg-black text-white border max-w-[179px] border-white px-[40px] py-[23px] sm:py-4 font-semibold neue-pro  hover:bg-gray-200 hover:text-black transition">
-              SUBSCRIBE
-            </button>
-          </div>
+        <div className="flex mb-[33px] sm:gap-0 ">
+  <input
+    type="email"
+    placeholder="Enter Email Address"
+    className="
+      w-full max-w-[417px] 
+      flex-1 
+      px-[12px] py-[10px]    /* smaller padding for mobile */
+      sm:px-[14px] sm:py-[14px] 
+      lg:py-[23px]           /* larger height for desktop */
+      text-sm sm:text-base lg:text-lg
+      text-black/70 
+      font-normal 
+      bg-white 
+      outline-none
+    "
+  />
+  <button
+    className="
+      max-w-[179px] 
+      bg-black text-white border border-white
+      px-[20px] py-[10px]     /* smaller padding for mobile */
+      sm:px-[30px] sm:py-[14px]
+      lg:px-[40px] lg:py-[23px]   /* larger size for desktop */
+      font-semibold neue-pro 
+      hover:bg-gray-200 hover:text-black transition
+    "
+  >
+    SUBSCRIBE
+  </button>
+</div>
+
 
           <p className="text-xs sm:text-sm 2xl:text-[15px] text-white/50 font-normal neue-pro leading-snug">
             By subscribing you agree to our Terms & Conditions and Privacy & Cookies Policy.
