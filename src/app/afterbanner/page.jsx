@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CategoryFlex() {
   return (
-    <section className="bg-white w-full text-black py-12 md:py-16 lg:py-20 2xl:py-[78px]">
+    <section className="bg-white w-full text-black pt-12 md:pt-16 lg:pt-20 2xl:pt-[78px]">
       <div className="container mx-auto  px-6 lg:px-12 2xl:px-[182px]">
         <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 neue-pro">
           {/* Left Side - Women */}
