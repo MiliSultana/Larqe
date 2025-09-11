@@ -38,7 +38,7 @@ export default function BestCategori() {
             className="object-cover"
           />
       
-          </div>
+          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Belts</h2>
         </div>
       
         
@@ -57,7 +57,7 @@ export default function BestCategori() {
             className="object-cover"
           />
        
-        </div>
+        </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Footwear</h2>
       
       
       </div>
@@ -72,7 +72,7 @@ export default function BestCategori() {
             fill
             className="object-cover"
           />
-          </div>
+          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Outerwear</h2>
           </div>
        
        {/* Card 4 */}
@@ -85,7 +85,7 @@ export default function BestCategori() {
             fill
             className="object-cover"
           />
-          </div>
+          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Accesories</h2>
           </div>
         
       </div>
