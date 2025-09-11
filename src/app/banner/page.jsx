@@ -65,7 +65,7 @@ export default function Banner() {
       </button>
 
       {/* Pagination Dots */}
-      <div className="absolute bottom-4 sm:bottom-6 w-full flex justify-center space-x-2">
+      <div className="absolute bottom-4 sm:bottom-6 w-full flex justify-center space-x-1">
         <Image src="/images/square2.png" alt="square" width={12} height={12} className="w-3 h-3" />
         <Image src="/images/square1.png" alt="square" width={12} height={12} className="w-3 h-3" />
         <Image src="/images/square1.png" alt="square" width={12} height={12} className="w-3 h-3" />
