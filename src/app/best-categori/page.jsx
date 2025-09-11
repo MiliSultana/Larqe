@@ -26,7 +26,7 @@ export default function BestCategori() {
       
 
       {/* Image Grid */  }
-            <div className=" mx-auto grid  md:grid-cols-4 gap-6 px-6 ">
+            <div className=" mx-auto grid  md:grid-cols-4 gap-6 px-6 md:px-12 xl:px-24 2xl:px-[134px]">
         {/* Card 1 */}
         <div className=" w-full  mx-auto">
         {/* Image with badge */}

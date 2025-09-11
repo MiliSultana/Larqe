@@ -7,7 +7,7 @@ export default function BeforeFooter() {
         
         {/* Left Section */}
         <div className="flex-1">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[40px] font-semibold neue-pro leading-tight tracking-[-1px] md:tracking-[-3px] mb-[21px]">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[40px] font-semibold neue-pro leading-tight tracking-[-1px] lg:tracking-[-3px] mb-[21px]">
             Get our emails for info on <br className="hidden sm:block" /> 
             new items, sales and more.
           </h1>
@@ -56,7 +56,7 @@ export default function BeforeFooter() {
 
         {/* Right Section */}
         <div className="flex-1 max-w-md">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[40px] font-semibold mb-[21px] tracking-[-1px] md:tracking-[-3px] neue-pro">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-[40px] font-semibold mb-[21px] tracking-[-1px] lg:tracking-[-3px] neue-pro">
             Need help? <br  /> (+800) 1234 5678 90
           </h1>
           <p className="text-base sm:text-lg 2xl:text-[18px] font-normal mb-[28px] text-white/70">
