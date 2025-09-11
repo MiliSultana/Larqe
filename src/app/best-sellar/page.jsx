@@ -21,7 +21,7 @@ export default function BestSellar() {
 </div>
 
     {/* Image Grid */  }
-      <div className="container mx-auto grid  md:grid-cols-3 gap-6 px-6 lg:px-12 2xl:px-[182px]">
+      <div className=" mx-auto grid  md:grid-cols-3 gap-6 px-6 ">
   {/* Card 1 */}
   <div className=" w-full  mx-auto">
   {/* Image with badge */}
@@ -94,7 +94,7 @@ export default function BestSellar() {
 
 
   {/* Product Info (below the image) */}
-  <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-red-300">
+  <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
  
     <p className="text-[16px] md:text-[18px] font-normal text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
@@ -176,7 +176,7 @@ export default function BestSellar() {
 
       {/* Left Arrow */}
       <div className="container mx-auto ">
-      <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+      <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/3 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
         <Image
           src="/images/LeftArrow.png"
           alt="Left Arrow"
@@ -187,7 +187,7 @@ export default function BestSellar() {
       </button>
 
       {/* Right Arrow */}
-      <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+      <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/3 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
         <Image
           src="/images/RightArrow.png"
           alt="Right Arrow"
@@ -205,61 +205,62 @@ export default function BestSellar() {
               <Image src="/images/Rectangle1.png" alt="square" width={12} height={12} className="w-3 h-3" />
             </div>
 
-            <div className="w-full px-6 lg:px-12 2xl:px-[182px] py-8">
-      <div className="flex flex-col md:flex-row justify-center gap-6">
-        {/* Banner 1 */}
-        <div className="relative w-full md:w-1/2 max-w-[574px] h-[309px] flex-shrink-0">
-          <Image
-            src="/images/new-session.png"
-            alt="New Session"
-            fill
-            className="object-cover "
-          />
-          <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-white bg-black/30 ">
-            <h3 className="text-sm mt-[30px] md:text-[15px]  mb-2 font-medium tracking-wide">
-              New Session
-            </h3>
-            <h1 className="text-lg md:text-[30px] font-semibold mb-2 leading-snug md:tracking-[-2px]">
-              Show your best <br /> luxury of your life
-            </h1>
-            <h2 className="text-xs md:text-[18px] mb-[60px]  font-medium">
-              Don’t miss the opportunity
-            </h2>
-            <div>
-              <button className="px-6 py-3 text-xs md:text-sm font-semibold uppercase bg-[#FFFFFF] transition text-[#151515]  ">
-                Shop Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Banner 2 */}
-        <div className="relative w-full md:w-1/2 max-w-[574px] h-[309px] flex-shrink-0">
-          <Image
-            src="/images/style-guide.png"
-            alt="Style Guide"
-            fill
-            className="object-cover "
-          />
-          <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-[#565656] bg-black/30 ">
-            <h3 className="text-sm mt-[30px] md:text-[15px]  mb-2 font-medium tracking-wide">
-              Style Guide
-            </h3>
-            <h1 className="text-lg md:text-[30px] text-[#000000] font-semibold mb-2 leading-snug md:tracking-[-2px]">
-             How well do you know <br /> your fashion sense?
-            </h1>
-            <h2 className="text-xs md:text-[18px] mb-[60px] text-[#6E6E6E] font-medium">
-              Don’t miss the opportunity
-            </h2>
-            <div>
-              <button className="px-8 py-3 text-xs md:text-sm font-semibold uppercase bg-black transition text-white  ">
-                Explore
-              </button>
-            </div>
-          </div>
+            <div className=" mx-auto px-6 py-8">
+  <div className="flex flex-col md:flex-row justify-center gap-6">
+    {/* Banner 1 */}
+    <div className="relative w-full md:w-1/2 h-[309px] overflow-hidden ">
+      <Image
+        src="/images/new-session.png"
+        alt="New Session"
+        fill
+        className="object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-white bg-black/30">
+        <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
+          New Session
+        </h3>
+        <h1 className="text-lg md:text-[30px] font-semibold mb-2 leading-snug lg:tracking-[-2px]">
+          Show your best <br /> luxury of your life
+        </h1>
+        <h2 className="text-xs md:text-[18px] mb-[60px] font-medium">
+          Don’t miss the opportunity
+        </h2>
+        <div>
+          <button className="px-6 py-3 text-xs md:text-sm font-semibold uppercase bg-white text-[#151515]">
+            Shop Now
+          </button>
         </div>
       </div>
     </div>
+
+    {/* Banner 2 */}
+    <div className="relative w-full md:w-1/2 h-[309px] overflow-hidden ">
+      <Image
+        src="/images/style-guide.png"
+        alt="Style Guide"
+        fill
+        className="object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-[#565656] bg-black/30">
+        <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
+          Style Guide
+        </h3>
+        <h1 className="text-lg md:text-[30px] text-black font-semibold mb-2 leading-snug md:tracking-[-1px] lg:tracking-[-2px]">
+          How well do you know <br /> your fashion sense?
+        </h1>
+        <h2 className="text-xs md:text-[18px] mb-[60px] text-[#6E6E6E] font-medium">
+          Don’t miss the opportunity
+        </h2>
+        <div>
+          <button className="px-8 py-3 text-xs md:text-sm font-semibold uppercase bg-black text-white">
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
     
   );

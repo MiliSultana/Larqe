@@ -22,68 +22,102 @@ export default function BestCategori() {
           products
         </p>
       </div>
-      <div className="container mx-auto text-[21px] font-semibold text-[#000000] grid  sm:grid-cols-2  lg:grid-cols-4 gap-6 px-6 lg:px-12 2xl:px-[182px]">
-        <div ><Image
-          src="/images/BestCategory1.png"
-          alt="Category 1"
+      
+      
+
+      {/* Image Grid */  }
+            <div className=" mx-auto grid  md:grid-cols-4 gap-6 px-6 ">
+        {/* Card 1 */}
+        <div className=" w-full  mx-auto">
+        {/* Image with badge */}
+        <div className="relative w-full h-[275px]  flex-shrink-0">
+          <Image
+            src="/images/BestCategory1.png"
+            alt="Category 1"
+            fill
+            className="object-cover"
+          />
+      
+          </div>
+        </div>
+      
         
-          width={300}
-          height={300}
-          className=" object-cover mx-auto"
-        />
-        <h1 className="mt-3 md:ml-6 ml-4 lg:ml-0">Belts</h1> </div>
-        <div><Image
-          src="/images/BestCategory2.png"
-          alt="Category 2"
-          width={300}
-          height={300}
-          className="object-cover mx-auto"
-        />
-        <h1 className="mt-3 md:ml-6 ml-4 lg:ml-0">Footware</h1>
+      
+          
+      
+      
+        {/* Card 2 */}
+        <div className=" w-full  mx-auto">
+        {/* Image with badge */}
+        <div className="relative w-full h-[275px] flex-shrink-0">
+          <Image
+            src="/images/BestCategory2.png"
+            alt="Category 1"
+            fill
+            className="object-cover"
+          />
+       
         </div>
-        <div><Image
-          src="/images/BestCategory3.png"
-          alt="Category 3"
-          width={300}
-          height={300}
-          className="object-cover mx-auto "
-        />
-        <h1 className="mt-3 md:ml-6 ml-4 lg:ml-0">Outerware</h1>
-        </div>
-        <div><Image
-          src="/images/BestCategory4.png"
-          alt="Category 4"
-          width={300}
-          height={300}
-          className="object-cover mx-auto"
-        />
-        <h1 className="mt-3 md:ml-6 ml-4 lg:ml-0">Accesories</h1>
-        </div>
+      
+      
       </div>
-
-      {/* Left Arrow */}
-      <div className="container mx-auto ">
-      <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
-        <Image
-          src="/images/LeftArrow.png"
-          alt="Left Arrow"
-          width={20}
-          height={40}
-          className="w-4  h-4"
-        />
-      </button>
-
-      {/* Right Arrow */}
-      <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
-        <Image
-          src="/images/RightArrow.png"
-          alt="Right Arrow"
-          width={20}
-          height={40}
-          className="w-4  h-4"
-        />
-      </button>
+      
+        {/* Card 3 */}
+         <div className=" w-full  mx-auto">
+        {/* Image with badge */}
+        <div className="relative w-full h-[275px] flex-shrink-0">
+          <Image
+            src="/images/BestCategory3.png"
+            alt="Category 1"
+            fill
+            className="object-cover"
+          />
+          </div>
+          </div>
+       
+       {/* Card 4 */}
+         <div className=" w-full  mx-auto">
+        {/* Image with badge */}
+        <div className="relative w-full h-[275px] flex-shrink-0">
+          <Image
+            src="/images/BestCategory4.png"
+            alt="Category 1"
+            fill
+            className="object-cover"
+          />
+          </div>
+          </div>
+        
       </div>
+      
+      
+      
+            {/* Left Arrow */}
+            <div className="container mx-auto ">
+            <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+              <Image
+                src="/images/LeftArrow.png"
+                alt="Left Arrow"
+                width={20}
+                height={40}
+                className="w-4  h-4"
+              />
+            </button>
+      
+            {/* Right Arrow */}
+            <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+              <Image
+                src="/images/RightArrow.png"
+                alt="Right Arrow"
+                width={20}
+                height={40}
+                className="w-4  h-4"
+              />
+            </button>
+            </div>
+
+
+
     </section>
   );
 }
