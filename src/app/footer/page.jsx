@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#F9F9F9] text-black">
       {/* Top Section */}
-      <div className="container mx-auto px-6 lg:px-12 2xl:px-[182px] pt-12 md:pt-16 lg:pt-20 pb-8 grid grid-cols-1 lg:grid-cols-2 ">
+      <div className=" mx-auto px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px] pt-12 md:pt-16 lg:pt-20 pb-8 grid grid-cols-1 lg:grid-cols-2 ">
         
         {/* Brand + Description */}
         <div>

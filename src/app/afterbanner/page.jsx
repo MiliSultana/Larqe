@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function CategoryFlex() {
   return (
     <section className="bg-white w-full text-black pt-12 md:pt-16 lg:pt-20 2xl:pt-[78px]">
-      <div className="container mx-auto  px-6 lg:px-12 2xl:px-[182px]">
+      <div className="container mx-auto  px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px]">
         <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 neue-pro">
           {/* Left Side - Women */}
           <div className="relative w-full h-[400px] sm:h-[500px] lg:w-[400px] xl:w-[474px] lg:h-[650px] flex-shrink-0">

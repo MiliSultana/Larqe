@@ -8,20 +8,20 @@ export default function BestSellar() {
     <section className="relative bg-white w-full text-black pt-12 md:pt-16 lg:pt-20 2xl:pt-[99px]">
 
       {/* Section Heading */}
-<div className="container mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12 2xl:px-[182px] mb-[35px]  lg:gap-30">
+<div className=" mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px] mb-[35px]  lg:gap-30">
   {/* Heading */}
-  <h1 className="lg:w-1/3 text-[28px] sm:text-[32px] lg:text-[40px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
+  <h1 className="lg:w-1/3 text-[28px] sm:text-[32px] lg:text-[40px] 2xl:lg:text-[55px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
     Best Sellers
   </h1>
 
   {/* Paragraph */}
-  <p className="lg:w-2/3 mt-3 lg:mt-0 text-[15px] sm:text-[18px] font-normal text-[#5B5B5B]/71 leading-relaxed">
+  <p className="lg:w-2/3 mt-3 lg:mt-0 text-[15px] sm:text-[18px] 2xl:sm:text-[22px] font-normal text-[#5B5B5B]/71 leading-relaxed">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
   </p>
 </div>
 
     {/* Image Grid */  }
-      <div className=" mx-auto grid  md:grid-cols-3 gap-6 px-6 ">
+      <div className=" mx-auto grid  md:grid-cols-3  gap-6 px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px] ">
   {/* Card 1 */}
   <div className=" w-full  mx-auto">
   {/* Image with badge */}
@@ -176,7 +176,7 @@ export default function BestSellar() {
 
       {/* Left Arrow */}
       <div className="container mx-auto ">
-      <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/3 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+      <button className="absolute hidden lg:block xl:left-8 2xl:left-15 top-1/3 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
         <Image
           src="/images/LeftArrow.png"
           alt="Left Arrow"
@@ -187,7 +187,7 @@ export default function BestSellar() {
       </button>
 
       {/* Right Arrow */}
-      <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/3 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+      <button className="absolute hidden lg:block right-0 xl:right-8 2xl:right-15  top-1/3 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
         <Image
           src="/images/RightArrow.png"
           alt="Right Arrow"
@@ -205,7 +205,7 @@ export default function BestSellar() {
               <Image src="/images/Rectangle1.png" alt="square" width={12} height={12} className="w-3 h-3" />
             </div>
 
-            <div className=" mx-auto px-6 py-8">
+            <div className=" mx-auto  gap-6 px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] py-8">
   <div className="flex flex-col md:flex-row justify-center gap-6">
     {/* Banner 1 */}
     <div className="relative w-full md:w-1/2 h-[309px] overflow-hidden ">

@@ -7,16 +7,16 @@ export default function BestCategori() {
     <section className="relative bg-white w-full text-black py-12 md:py-16 lg:py-20 2xl:py-[99px]">
       {/* Image Grid */}
       {/* Section Heading */}
-      <div className="container mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12 2xl:px-[182px] mb-10">
-        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
+      <div className="mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] mb-10">
+        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] 2xl:text-[55px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
           Best for your categories
         </h1>
-        <p className="mt-3 lg:mt-0 lg:ml-6  text-[15px] sm:text-[16px] text-[#5B5B5B]/70">
-          <span className="text-[16px]  sm:text-[18px] font-semibold text-[#5B5B5B]">
+        <p className="mt-3 lg:mt-0 lg:ml-6  text-[15px] sm:text-[16px] 2xl:text-[22px] text-[#5B5B5B]/70">
+          <span className="text-[16px]  sm:text-[18px] 2xl:text-[22px] font-semibold text-[#5B5B5B]">
             23 categories
           </span>{" "}
           belonging to a total of{" "}
-          <span className="text-[16px] sm:text-[18px] font-semibold text-[#5B5B5B]">
+          <span className="text-[16px] sm:text-[18px] 2xl:text-[22px] font-semibold text-[#5B5B5B]">
             34,592
           </span>{" "}
           products
@@ -26,7 +26,7 @@ export default function BestCategori() {
       
 
       {/* Image Grid */  }
-            <div className=" mx-auto grid  md:grid-cols-4 gap-6 px-6 md:px-12 xl:px-24 2xl:px-[134px]">
+            <div className=" mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px]">
         {/* Card 1 */}
         <div className=" w-full  mx-auto">
         {/* Image with badge */}
@@ -38,7 +38,7 @@ export default function BestCategori() {
             className="object-cover"
           />
       
-          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Belts</h2>
+          </div><h2 className="text-[#000000] mt-3 text-3 xl:text-[21px] font-semibold neue-pro">Belts</h2>
         </div>
       
         
@@ -57,7 +57,7 @@ export default function BestCategori() {
             className="object-cover"
           />
        
-        </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Footwear</h2>
+        </div><h2 className="text-[#000000] mt-3 text-3 xl:text-[21px] font-semibold neue-pro">Footwear</h2>
       
       
       </div>
@@ -72,7 +72,7 @@ export default function BestCategori() {
             fill
             className="object-cover"
           />
-          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Outerwear</h2>
+          </div><h2 className="text-[#000000] mt-3 text-3 xl:text-[21px] font-semibold neue-pro">Outerwear</h2>
           </div>
        
        {/* Card 4 */}
@@ -85,7 +85,7 @@ export default function BestCategori() {
             fill
             className="object-cover"
           />
-          </div><h2 className="text-[#000000] text-[21px] font-semibold neue-pro">Accesories</h2>
+          </div><h2 className="text-[#000000] mt-3 text-3 xl:text-[21px] font-semibold neue-pro">Accesories</h2>
           </div>
         
       </div>
@@ -94,7 +94,7 @@ export default function BestCategori() {
       
             {/* Left Arrow */}
             <div className="container mx-auto ">
-            <button className="absolute hidden lg:block xl:left-13 2xl:left-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+            <button className="absolute hidden lg:block xl:left-8 2xl:left-15 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
               <Image
                 src="/images/LeftArrow.png"
                 alt="Left Arrow"
@@ -105,7 +105,7 @@ export default function BestCategori() {
             </button>
       
             {/* Right Arrow */}
-            <button className="absolute hidden lg:block right-0 xl:right-13 2xl:right-31 top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+            <button className="absolute hidden lg:block right-0 xl:right-8 2xl:right-15 top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
               <Image
                 src="/images/RightArrow.png"
                 alt="Right Arrow"
