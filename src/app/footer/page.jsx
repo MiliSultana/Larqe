@@ -33,7 +33,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Information
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] 2xl:text-[15px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-normal">
               <li><Link href="#">About Us</Link></li>
               <li><Link href="#">Privacy Policy</Link></li>
               <li><Link href="#">Returns Policy</Link></li>
@@ -47,7 +47,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Account
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] 2xl:text-[15px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px]  font-normal">
               <li><Link href="#">Dashboard</Link></li>
               <li><Link href="#">My Orders</Link></li>
               <li><Link href="#">My Wishlist</Link></li>
@@ -61,11 +61,11 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Shop
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] 2xl:text-[15px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px]  font-normal">
               <li><Link href="#">Affiliate</Link></li>
               <li><Link href="#">Best Sellers</Link></li>
               <li><Link href="#">Discounts</Link></li>
-              <li><Link href="#">Latest Products</Link></li>
+              <li><Link href="#">LatestProducts</Link></li>
               <li><Link href="#">Sale Products</Link></li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Categories
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] 2xl:text-[15px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-normal">
               <li><Link href="#">Women</Link></li>
               <li><Link href="#">Men</Link></li>
               <li><Link href="#">Bags</Link></li>
@@ -89,19 +89,19 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className=" mx-auto px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px]  pb-12">
         <div className="border-t border-[#000000]/14 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-black gap-4">
-          <p className="text-[13px] font-normal text-[#5B5B5B]/71 text-center md:text-left">
+          <p className="text-[13px] 2xl:text-[22px] font-normal text-[#5B5B5B]/71 text-center md:text-left">
             Copyright 2025 © Larqe Shopping Website. All rights reserved. Powered by Viacon.
           </p>
 
           <Image
             src="/images/footerimg.png"
             alt="Footer Secure Payments"
-            width={300}
+            width={700}
             height={20}
             className="object-contain"
           />
 
-          <div className="flex flex-wrap justify-center md:justify-end xl:gap-7 gap-2 font-normal text-[13px] text-[#5B5B5B]/71">
+          <div className="flex flex-wrap 2xl:text-[22px]  justify-center md:justify-end xl:gap-7 gap-2 font-normal text-[13px] text-[#5B5B5B]/71">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms and Conditions</Link>
             <Link href="#">Returns Policy</Link>
