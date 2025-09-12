@@ -20,7 +20,7 @@ export default function Nav() {
 
       {/* 🔹 Main NavBar */}
       <nav className="w-full bg-white shadow-sm relative z-50">
-        <div className="container mx-auto px-4 lg:px-12 2xl:px-[68px] py-[10px] flex items-center justify-between">
+        <div className="mx-auto px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px] py-[10px] flex items-center justify-between">
           {/* Left - Menu Icon (mobile) */}
           <button
             className="text-2xl md:hidden"

@@ -16,7 +16,7 @@ export default function Footer() {
             height={70}
             className="h-[62px] w-[172px] object-contain"
           />
-          <p className="text-[#5B5B5B]/71 neue-pro text-base sm:text-lg font-normal mt-5 mb-6 leading-relaxed">
+          <p className="text-[#5B5B5B]/71 neue-pro text-base sm:text-lg 2xl:text-[22px] font-normal mt-5 mb-6 leading-relaxed">
             Quis ipsum suspendisse ultrices gravida. <br />
             Risus commodo viverra maecenas accumsan <br />
             lacus vel facilisis in termapol.

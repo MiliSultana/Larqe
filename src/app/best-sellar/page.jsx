@@ -205,7 +205,7 @@ export default function BestSellar() {
               <Image src="/images/Rectangle1.png" alt="square" width={12} height={12} className="w-3 h-3" />
             </div>
 
-            <div className=" mx-auto  gap-6 px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] py-8">
+            <div className=" mx-auto  gap-6 px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] pb-9">
   <div className="flex flex-col md:flex-row justify-center gap-6">
     {/* Banner 1 */}
     <div className="relative w-full md:w-1/2 h-[309px] overflow-hidden ">
@@ -260,6 +260,42 @@ export default function BestSellar() {
     </div>
   </div>
 </div>
+<div className="w-full  text-white">
+   <div className="px-6 lg:px-12 xl:px-[134px] ">
+  <div className=" bg-black mx-auto neue-pro flex flex-col lg:flex-row items-center justify-between gap-6 py-6 px-[23px] ">
+   
+    {/* Left Text */}
+    <h1 className=" text-sm md:text-base lg:text-base 2xl:text-2xl font-semibold text-center lg:text-left">
+      50% discount on your dream clothes :
+    </h1>
+
+    {/* Timer */}
+    <div className=" flex items-center sm:gap-2 text-center">
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold ">
+        31
+      </div>
+      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold ">
+        12
+      </div>
+      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold  ">
+        03
+      </div>
+      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold  ">
+        12
+      </div>
+    </div>
+
+    {/* Right Text */}
+    <h2 className=" text-xs md:text-sm lg:text-[14px] text-center lg:text-left 2xl:text-2xl xl:max-w-[35%]   ">
+      Vivamus finibus, est condimentum feugiat aliquet, felis sem euismod risus
+    </h2>
+    </div>
+  </div>
+</div>
+
 
     </section>
     
