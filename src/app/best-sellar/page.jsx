@@ -10,12 +10,12 @@ export default function BestSellar() {
       {/* Section Heading */}
 <div className=" mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12   xl:px-[134px] 2xl:px-[134px] mb-[35px]  lg:gap-30">
   {/* Heading */}
-  <h1 className="lg:w-1/3 text-[28px] sm:text-[32px] lg:text-[40px] 2xl:lg:text-[55px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
+  <h1 className="lg:w-1/3 text-[28px] sm:text-[32px] lg:text-[40px] 2xl:lg:text-[55px] font-semibold tracking-[-1px]  text-[#282828]">
     Best Sellers
   </h1>
 
   {/* Paragraph */}
-  <p className="lg:w-2/3 mt-3 lg:mt-0 text-[15px] sm:text-[18px] 2xl:sm:text-[22px] font-normal text-[#5B5B5B]/71 leading-relaxed">
+  <p className="font-neue-light lg:w-2/3 mt-3 lg:mt-0 text-[15px] sm:text-[18px] 2xl:sm:text-[22px]  text-[#5B5B5B]/71 ">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
   </p>
 </div>
@@ -43,7 +43,7 @@ export default function BestSellar() {
 
   {/* Product Info (below the image) */}
   <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
-    <p className="text-[16px] md:text-[18px] font-normal text-[#5B5B5B] md:mb-2.5">
+    <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
     </p>
     <h2 className="text-[18px] font-semibold text-[#000000] md:mb-2.5">
@@ -96,7 +96,7 @@ export default function BestSellar() {
   {/* Product Info (below the image) */}
   <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
  
-    <p className="text-[16px] md:text-[18px] font-normal text-[#5B5B5B] md:mb-2.5">
+    <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
     </p>
     <h2 className="text-[18px] font-semibold text-[#000000] md:mb-2.5">
@@ -148,7 +148,7 @@ export default function BestSellar() {
   </div>
   {/* Product Info (below the image) */}
   <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
-    <p className="text-[16px] md:text-[18px] font-normal text-[#5B5B5B] md:mb-2.5">
+    <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
     </p>
     <h2 className="text-[18px] font-semibold text-[#000000] md:mb-2.5">
@@ -219,10 +219,10 @@ export default function BestSellar() {
         <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
           New Session
         </h3>
-        <h1 className="text-lg md:text-[30px] font-semibold mb-2 leading-snug lg:tracking-[-2px]">
+        <h1 className="text-lg md:text-[30px] font-semibold mb-2 leading-snug lg:tracking-[-1px]">
           Show your best <br /> luxury of your life
         </h1>
-        <h2 className="text-xs md:text-[18px] mb-[60px] font-medium">
+        <h2 className="text-xs md:text-[18px] mb-[60px] font-neue-light">
           Don’t miss the opportunity
         </h2>
         <div>
@@ -245,10 +245,10 @@ export default function BestSellar() {
         <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
           Style Guide
         </h3>
-        <h1 className="text-lg md:text-[30px] text-black font-semibold mb-2 leading-snug md:tracking-[-1px] lg:tracking-[-2px]">
+        <h1 className="text-lg md:text-[30px] text-black font-semibold mb-2 leading-snug lg:tracking-[-1px] ">
           How well do you know <br /> your fashion sense?
         </h1>
-        <h2 className="text-xs md:text-[18px] mb-[60px] text-[#6E6E6E] font-medium">
+        <h2 className="text-xs md:text-[18px] mb-[60px] text-[#6E6E6E] font-neue-light">
           Don’t miss the opportunity
         </h2>
         <div>
@@ -262,34 +262,34 @@ export default function BestSellar() {
 </div>
 <div className="w-full  text-white">
    <div className="px-6 lg:px-12 xl:px-[134px] ">
-  <div className=" bg-black mx-auto neue-pro flex flex-col lg:flex-row items-center justify-between gap-6 py-6 px-[23px] ">
+  <div className=" bg-black mx-auto neue-pro flex flex-col lg:flex-row items-center justify-between gap-6 py-8 px-[23px] ">
    
     {/* Left Text */}
-    <h1 className=" text-sm md:text-base lg:text-base 2xl:text-2xl font-semibold text-center lg:text-left">
+    <h1 className=" text-sm md:text-base lg:text-[18px] 2xl:text-2xl font-semibold text-center lg:text-left">
       50% discount on your dream clothes :
     </h1>
 
     {/* Timer */}
     <div className=" flex items-center sm:gap-2 text-center">
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold ">
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold ">
         31
       </div>
       <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold ">
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold ">
         12
       </div>
       <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold  ">
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold  ">
         03
       </div>
       <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-2px] font-semibold  ">
+      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold  ">
         12
       </div>
     </div>
 
     {/* Right Text */}
-    <h2 className=" text-xs md:text-sm lg:text-[14px] text-center lg:text-left 2xl:text-2xl xl:max-w-[35%]   ">
+    <h2 className=" text-xs md:text-sm lg:text-[16px] text-center font-neue-light lg:text-left 2xl:text-2xl xl:max-w-[35%]   ">
       Vivamus finibus, est condimentum feugiat aliquet, felis sem euismod risus
     </h2>
     </div>

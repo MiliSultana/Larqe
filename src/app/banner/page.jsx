@@ -16,14 +16,14 @@ export default function Banner() {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Content */}
       <div className="container mx-auto relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-[48px] neue-pro font-semibold tracking-[-1px] md:tracking-[-2px] mb-4 md:mb-6 text-white">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-[48px] neue-pro tracking-[-1px]  mb-4 md:mb-6 text-white">
           Autumn - Winter ‘26 Sale
         </h1>
-        <p className="text-sm sm:text-base md:text-lg lg:text-[20px] neue-pro text-white/90 tracking-[-0.5px] md:tracking-[-1px] mb-6 md:mb-8 max-w-2xl">
+        <p className="text-sm sm:text-base md:text-lg lg:text-[20px] font-neue-light text-white/90 tracking-[-0.5px] mb-6 md:mb-8 max-w-2xl">
           Browse our Top Trending: the hottest picks loved by all.
         </p>
 

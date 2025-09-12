@@ -10,18 +10,18 @@ export default function Footer() {
         {/* Brand + Description */}
         <div>
           <Image
-            src="/images/logo.png"
+            src="/images/logo.svg"
             alt="Logo"
             width={180}
             height={70}
             className="h-[62px] w-[172px] object-contain"
           />
-          <p className="text-[#5B5B5B]/71 neue-pro text-base sm:text-lg 2xl:text-[22px] font-normal mt-5 mb-6 leading-relaxed">
+          <p className="text-[#5B5B5B]/71 font-neue-light text-base sm:text-lg 2xl:text-[22px] font-normal mt-5 mb-6 leading-relaxed">
             Quis ipsum suspendisse ultrices gravida. <br />
             Risus commodo viverra maecenas accumsan <br />
             lacus vel facilisis in termapol.
           </p>
-          <p className="text-black neue-pro text-base sm:text-lg font-semibold">
+          <p className="text-black neue-pro text-base sm:text-xl font-semibold">
             (+800) 1234 5678 90 – info@example.com
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Information
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-neue-light">
               <li><Link href="#">About Us</Link></li>
               <li><Link href="#">Privacy Policy</Link></li>
               <li><Link href="#">Returns Policy</Link></li>
@@ -47,7 +47,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Account
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px]  font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-neue-light  ">
               <li><Link href="#">Dashboard</Link></li>
               <li><Link href="#">My Orders</Link></li>
               <li><Link href="#">My Wishlist</Link></li>
@@ -61,7 +61,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Shop
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px]  font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-neue-light">
               <li><Link href="#">Affiliate</Link></li>
               <li><Link href="#">Best Sellers</Link></li>
               <li><Link href="#">Discounts</Link></li>
@@ -75,7 +75,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
               Categories
             </h3>
-            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-normal">
+            <ul className="space-y-[12px] text-[#5B5B5B]/71 text-sm sm:text-[15px] lg:text-[13px] xl:text-[15px] 2xl:text-[20px] font-neue-light">
               <li><Link href="#">Women</Link></li>
               <li><Link href="#">Men</Link></li>
               <li><Link href="#">Bags</Link></li>
@@ -94,7 +94,7 @@ export default function Footer() {
           </p>
 
           <Image
-            src="/images/footerimg.png"
+            src="/images/footerimg.svg"
             alt="Footer Secure Payments"
             width={500}
             height={20}

@@ -42,7 +42,7 @@ export default function Nav() {
 <div className="flex-1 flex  justify-center md:justify-start">
             <Link href="/">
               <Image
-                src="/images/logo.png"
+                src="/images/logo.svg"
                 alt="Brand Logo"
                 width={105}
                 height={40}

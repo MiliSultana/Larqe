@@ -7,6 +7,7 @@ import BeforeFooter from "./beforefooter/page";
 import Footer from "./footer/page";
 import BestCategori from "./best-categori/page";
 import BestSellar from "./best-sellar/page";
+import ShopLook from "./shop-look/page"
 
 
 export default function RootLayout({}) {
@@ -17,6 +18,7 @@ export default function RootLayout({}) {
         <Banner />
         <AfterBanner />
         <BestSellar />
+        <ShopLook/>
         <BestCategori />
         <BeforeFooter />
         <Footer />

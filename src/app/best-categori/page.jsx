@@ -8,10 +8,10 @@ export default function BestCategori() {
       {/* Image Grid */}
       {/* Section Heading */}
       <div className="mx-auto neue-pro flex flex-col lg:flex-row items-start lg:items-center px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] mb-10">
-        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] 2xl:text-[55px] font-semibold tracking-[-1px] lg:tracking-[-3px] text-[#282828]">
+        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] 2xl:text-[55px] font-semibold tracking-[-1px]  text-[#282828]">
           Best for your categories
         </h1>
-        <p className="mt-3 lg:mt-0 lg:ml-6  text-[15px] sm:text-[16px] 2xl:text-[22px] text-[#5B5B5B]/70">
+        <p className="mt-3 lg:mt-0 lg:ml-6 font-neue-light text-[15px] sm:text-[16px] 2xl:text-[22px] text-[#5B5B5B]/70">
           <span className="text-[16px]  sm:text-[18px] 2xl:text-[22px] font-semibold text-[#5B5B5B]">
             23 categories
           </span>{" "}

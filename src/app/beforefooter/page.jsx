@@ -7,11 +7,11 @@ export default function BeforeFooter() {
         
         {/* Left Section */}
         <div className="flex-1">
-          <h1 className="text-2xl sm:text-[25px] lg:text-4xl 2xl:text-[50px] font-semibold neue-pro leading-tight tracking-[-1px] lg:tracking-[-3px] mb-[21px]">
+          <h1 className="text-2xl sm:text-[25px] lg:text-4xl 2xl:text-[50px] font-semibold neue-pro leading-tight tracking-[-1px]  mb-[21px]">
             Get our emails for info on <br className="hidden sm:block" /> 
             new items, sales and more.
           </h1>
-          <p className="mb-[33px] font-normal text-base sm:text-lg 2xl:text-[20px] text-white/70">
+          <p className="mb-[33px] font-normal text-base sm:text-lg 2xl:text-[25px] text-white/70">
             We'll email you a voucher worth £10 off your first order over £50.
           </p>
 
@@ -49,14 +49,14 @@ export default function BeforeFooter() {
 </div>
 
 
-          <p className="text-xs sm:text-sm 2xl:text-[16px] text-white/50 font-normal neue-pro leading-snug">
+          <p className="text-xs sm:text-sm 2xl:text-[20px] text-white/50 font-neue-light leading-snug">
             By subscribing you agree to our Terms & Conditions and Privacy & Cookies Policy.
           </p>
         </div>
 
         {/* Right Section */}
         <div className="flex-1 ">
-          <h1 className="text-2xl sm:text-[25px] lg:text-4xl 2xl:text-[50px] font-semibold mb-[21px] tracking-[-1px] lg:tracking-[-3px] neue-pro">
+          <h1 className="text-2xl sm:text-[25px] lg:text-4xl 2xl:text-[50px] font-semibold mb-[21px] tracking-[-1px]  neue-pro">
             Need help? <br  /> (+800) 1234 5678 90
           </h1>
           <p className="text-base sm:text-lg 2xl:text-[25px] font-normal mb-[28px] text-white/70">
@@ -80,7 +80,7 @@ export default function BeforeFooter() {
             />
           </div>
 
-          <p className="text-xs sm:text-sm 2xl:text-[20px] text-white/50 font-normal neue-pro leading-snug">
+          <p className="text-xs sm:text-sm 2xl:text-[20px] text-white/50 font-neue-light leading-snug">
             Shopping App: Try our View in Your Room feature, manage registries and save payment info.
           </p>
         </div>
