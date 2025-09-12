@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         {/* Links Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:gap-[30px] 2xl:gap-[57px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:gap-[30px] 2xl:gap-[29px]">
           {/* Information */}
           <div>
             <h3 className="font-semibold text-lg neue-pro text-black mb-[17px]">
@@ -96,12 +96,12 @@ export default function Footer() {
           <Image
             src="/images/footerimg.png"
             alt="Footer Secure Payments"
-            width={700}
+            width={500}
             height={20}
-            className="object-contain"
+            className="object-contain w-[300px] 2xl:w-[500px]"
           />
 
-          <div className="flex flex-wrap 2xl:text-[22px]  justify-center md:justify-end xl:gap-7 gap-2 font-normal text-[13px] text-[#5B5B5B]/71">
+          <div className="inline-flex 2xl:text-[22px] justify-center md:justify-end xl:gap-6 gap-2 font-normal text-[13px] text-[#5B5B5B]/71">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms and Conditions</Link>
             <Link href="#">Returns Policy</Link>
