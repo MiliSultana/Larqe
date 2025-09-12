@@ -46,7 +46,7 @@ export default function ShopLook() {
 <div className=" mx-auto  gap-6 px-6 lg:px-12  xl:px-[134px] 2xl:px-[134px] pb-9">
   <div className="flex flex-col md:flex-row justify-center gap-6">
     {/* Banner 1 */}
-    <div className="relative w-full h-[430px] sm:h-[500px] md:h-[584px] overflow-hidden mt-[99px]">
+    <div className="relative w-full h-[430px] sm:h-[500px] md:h-[584px] 2xl:h-[700px] overflow-hidden mt-[99px]">
       <Image
         src="/images/shoplook.png"
         alt="New Session"
@@ -55,23 +55,23 @@ export default function ShopLook() {
       />
    <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: "url('/images/deal-bg.jpg')" }}>
       {/* Overlay */}
-      <div className="absolute inset-0 flex justify-end  px-2 sm:px-10 lg:px-[60px] bg-black/30">
+      <div className="absolute inset-0 flex justify-end  px-2 sm:px-10 lg:px-[60px] 2xl:px-[100px] bg-black/30">
         
         {/* Content Wrapper */}
         <div className="max-w-lg w-full text-left  md:mt-0">
           
           {/* Label */}
-          <p className="text-sm md:text-base mt-[30px] sm:mt-[49px] font-neue-light text-[#565656]">
+          <p className="text-sm md:text-base 2xl:text-2xl mt-[30px] sm:mt-[49px] font-neue-light text-[#565656]">
             Deal of The Week
           </p>
           
           {/* Heading */}
-          <h1 className="neue-pro mb-[9px] text-lg sm:text-2xl md:text-[30px] text-black font-semibold leading-snug lg:tracking-[-1px]">
+          <h1 className="neue-pro mb-[9px] text-lg sm:text-2xl 2xl:text-5xl md:text-[30px] text-black font-semibold leading-snug lg:tracking-[-1px]">
             Roland Grand White <br /> short checkered T-shirt
           </h1>
           
           {/* Description */}
-          <p className="text-sm sm:text-base md:text-lg font-neue-light text-[#6E6E6E] mb-[30px]">
+          <p className="text-sm sm:text-base 2xl:text-2xl md:text-lg font-neue-light text-[#6E6E6E] mb-[30px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna.
           </p>
@@ -96,12 +96,12 @@ export default function ShopLook() {
           </div>
           
           {/* CTA Button */}
-          <button className="mb-[40px] sm:mb-[124px] px-[34px] py-[10px] text-xs sm:text-sm md:text-[13.5px] font-semibold uppercase bg-black text-white  shadow  ">
+          <button className="mb-[40px] 2xl:mb-[30px] sm:mb-[124px] px-[34px] py-[10px] 2xl:px-[50px] 2xl:py-[25px] text-xs sm:text-sm md:text-[13.5px] 2xl:text-2xl font-semibold uppercase bg-black text-white  shadow  ">
             Shop Now
           </button>
           
           {/* Expiry Note */}
-          <h3 className="font-neue-light text-xs sm:text-sm md:text-[15px] text-[#333] ">
+          <h3 className="font-neue-light text-xs sm:text-sm 2xl:text-2xl md:text-[15px] text-[#333] ">
             Limited time offer. The deal expires on{" "}
             <span className="font-semibold">September 10, 2025</span> — HURRY UP!
           </h3>
