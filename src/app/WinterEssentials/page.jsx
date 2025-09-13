@@ -99,6 +99,10 @@ return (
       fill
       className="object-cover"
     />
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-[90%] bg-white text-black flex items-center justify-center gap-1 py-[10px] ">
+      <FaPlus className="w-3 h-3" />
+      <span className="uppercase text-[13.5px] neue-pro font-semibold">Add to cart</span>
+    </div>
   </div>
      {/* Product Info (separate, below image) */}
   <div className="mx-auto neue-pro px-6 py-4 bg-white">
@@ -108,6 +112,8 @@ return (
     <h2 className="text-[16px] sm:text-[18px] font-semibold text-[#000000] mb-2">
       ₹29.90 – ₹39.90
     </h2>
+    
+    
 
     {/* Stars */}
     <div className="flex items-center gap-2">
