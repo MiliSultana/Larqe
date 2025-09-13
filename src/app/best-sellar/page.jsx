@@ -270,24 +270,7 @@ export default function BestSellar() {
     </h1>
 
     {/* Timer */}
-    <div className=" flex items-center sm:gap-2 text-center">
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold ">
-        31
-      </div>
-      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold ">
-        12
-      </div>
-      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold  ">
-        03
-      </div>
-      <span className="px-2 font-bold text-[25px] tracking-[-2px]">:</span>
-      <div className="px-4 py-2 bg-white text-black text-[20px] md:text-[25px] tracking-[-1px] font-semibold  ">
-        12
-      </div>
-    </div>
-
+    
     {/* Right Text */}
     <h2 className=" text-xs md:text-sm lg:text-[16px] text-center font-neue-light lg:text-left 2xl:text-2xl xl:max-w-[35%]   ">
       Vivamus finibus, est condimentum feugiat aliquet, felis sem euismod risus

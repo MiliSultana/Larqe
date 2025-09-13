@@ -24,21 +24,7 @@ export default function ShopLook() {
 
 <div className=" flex flex-cols-3 px-6 justify-center text-[#BCBCBC] text-[16px] sm:text-[18px] lg:text-[20px] neue-pro">
   {/* Button 1 */}
-  <button className="bg-[#F0F0F0] py-[5px] md:py-[25px] md:px-[48px] px-[35px]">
-    All
-  </button>
-
-  {/* Button 2 */}
-  <button className="bg-[#F0F0F0] py-[5px] md:py-[25px] md:px-[48px] px-[35px]">
-    Mens
-  </button>
-
-  {/* Button 3 (Active) */}
-  <button className="bg-[#F0F0F0] px-[7px]  md:px-[10px] py-[3px] md:py-[9px]">
-    <span className="bg-black text-white py-[2px] md:py-[16px] px-[28px] md:px-[38px] block">
-      Womens
-    </span>
-  </button>
+  
 </div>
 
 
