@@ -25,7 +25,7 @@ export default function BestSellar() {
   {/* Card 1 */}
   <div className=" w-full  mx-auto">
   {/* Image with badge */}
-  <div className="relative w-full h-[450px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
+  <div className="relative w-full h-[388px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
     <Image
       src="/images/bestsellar1.png"
       alt="Category 1"
@@ -70,7 +70,7 @@ export default function BestSellar() {
   {/* Card 2 */}
   <div className=" w-full  mx-auto">
   {/* Image with badge */}
-  <div className="relative w-full h-[450px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
+  <div className="relative w-full h-[388px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
     <Image
       src="/images/bestsellar2.png"
       alt="Category 1"
@@ -132,7 +132,7 @@ export default function BestSellar() {
   {/* Card 3 */}
    <div className=" w-full  mx-auto">
   {/* Image with badge */}
-  <div className="relative w-full h-[450px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
+  <div className="relative w-full h-[388px] sm:h-[500px] lg:h-[563px] flex-shrink-0">
     <Image
       src="/images/bestsellar3.png"
       alt="Category 1"
@@ -215,7 +215,7 @@ export default function BestSellar() {
         fill
         className="object-cover"
       />
-      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-white bg-black/30">
+      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-white bg-black/10">
         <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
           New Session
         </h3>
@@ -241,7 +241,7 @@ export default function BestSellar() {
         fill
         className="object-cover"
       />
-      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-[#565656] bg-black/30">
+      <div className="absolute inset-0 flex flex-col neue-pro px-[30px] text-[#565656] bg-black/10">
         <h3 className="text-sm mt-[30px] md:text-[15px] mb-2 font-medium tracking-wide">
           Style Guide
         </h3>

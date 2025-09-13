@@ -7,7 +7,7 @@ export default function CategoryFlex() {
       <div className="mx-auto px-6 lg:px-12 xl:px-[134px] 2xl:px-[134px]">
         <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 neue-pro">
           {/* Left Side - Women */}
-          <div className="relative w-full lg:w-1/3 h-[400px] sm:h-[500px] lg:h-[650px] flex-shrink-0 overflow-hidden">
+          <div className="relative w-full lg:w-[40%] h-[400px] sm:h-[500px] lg:h-[650px] flex-shrink-0 overflow-hidden">
             <Image
               src="/images/img201.png"
               alt="Women"

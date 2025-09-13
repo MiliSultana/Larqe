@@ -7,8 +7,8 @@ import BeforeFooter from "./beforefooter/page";
 import Footer from "./footer/page";
 import BestCategori from "./best-categori/page";
 import BestSellar from "./best-sellar/page";
-import ShopLook from "./shop-look/page"
-
+import ShopLook from "./shop-look/page";
+import WatchBuy from "./watch&buy/page";
 
 export default function RootLayout({}) {
   return (
@@ -19,6 +19,7 @@ export default function RootLayout({}) {
         <AfterBanner />
         <BestSellar />
         <ShopLook/>
+        < WatchBuy />
         <BestCategori />
         <BeforeFooter />
         <Footer />
