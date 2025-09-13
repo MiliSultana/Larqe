@@ -312,7 +312,7 @@ export default function WatchBuy() {
           New Season
         </h3>
         <h1 className="text-lg md:text-[30px] text-[#000000] font-semibold mb-2 leading-snug lg:tracking-[-1px] ">
-        Show your styles with <br /> our new shoes
+        Show your styles with <br />our new shoes
         </h1>
         <h2 className="text-xs md:text-[18px] mb-[28px] text-[#6E6E6E] font-neue-light">
           Don’t miss the opportunity

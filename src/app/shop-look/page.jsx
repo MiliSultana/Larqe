@@ -54,7 +54,7 @@ export default function ShopLook() {
         fill
         className="object-cover"
       />
-   <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: "url('/images/deal-bg.jpg')" }}>
+   <div className="relative w-full bg-cover bg-center" >
       {/* Overlay */}
       <div className="absolute inset-0 flex justify-end  px-2 sm:px-10 lg:px-[60px] 2xl:px-[100px] bg-black/30">
         
