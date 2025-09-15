@@ -19,7 +19,30 @@
         fill
         className="object-cover"
       />
+      {/* Left Arrow */}
+       <div className="container mx-auto ">
+       <button className="absolute hidden md:block xl:left-0 md:left-0 2xl:left-15 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+         <Image
+           src="/images/LeftArrow.png"
+           alt="Left Arrow"
+           width={20}
+           height={40}
+           className="w-4  h-4"
+         />
+       </button>
  
+       {/* Right Arrow */}
+       <button className="absolute hidden md:block xl:right-0 md:right-0  2xl:right-15  top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+         <Image
+           src="/images/RightArrow.png"
+           alt="Right Arrow"
+           width={20}
+           height={40}
+           className="w-4  h-4"
+         />
+       </button>
+       </div>
+     
     </div>
     
         </div> 
@@ -37,6 +60,7 @@
        <p>Phone (+45) 7199 2516</p>
        </div>
         </div>
+        
         </div>
    );
 }

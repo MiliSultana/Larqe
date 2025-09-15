@@ -234,21 +234,52 @@ export default function LatestDeals() {
         </div>
       </div>
     </div>
+    
   </div>
-
- <div className="mx-auto  px-6 lg:px-12 xl:px-[134px] 2xl:px-[134px] pt-[33px]">
-<div className="bg-black neue-pro py-[25px] px-[161px] flex justify-between text-white">
-    <div>
-        <h2 className="py-[14px] text-[20px]  ">Super Discount on your First Purchase</h2>
+      {/* Left Arrow */}
+        <div className="container mx-auto ">
+        <button className="absolute hidden lg:block xl:left-8 2xl:left-15 top-1/2 -translate-y-1/2 bg-[#F0F0F0]   py-[27px]   px-[15px]">
+          <Image
+            src="/images/LeftArrow.png"
+            alt="Left Arrow"
+            width={20}
+            height={40}
+            className="w-4  h-4"
+          />
+        </button>
+  
+        {/* Right Arrow */}
+        <button className="absolute hidden lg:block right-0 xl:right-8 2xl:right-15  top-1/2 -translate-y-1/2 bg-[#F0F0F0]  py-[27px]   px-[15px]">
+          <Image
+            src="/images/RightArrow.png"
+            alt="Right Arrow"
+            width={20}
+            height={40}
+            className="w-4  h-4"
+          />
+        </button>
         </div>
- <div>
-    <button className="py-[14px] border-1 border-dashed px-[46px] ">FREE25FIRST</button>
-    </div>
-  <div>
-    <p className="py-[14px] font-neue-light text-[18px] text-[#FFFFFFC4]/77 ">Use Discount code in Checkout</p>
-    </div>
-</div>
+<div className="mx-auto px-6 lg:px-12 xl:px-[134px] 2xl:px-[134px] pt-[33px]">
+  <div className="bg-black neue-pro py-6 px-6 md:px-10 lg:px-16 xl:px-24 flex flex-col md:flex-row items-center justify-between gap-4 text-white ">
+    
+    {/* Left Text */}
+    <h2 className="text-lg sm:text-xl     font-semibold text-center md:text-left">
+      Super Discount on your First Purchase
+    </h2>
+    
+    {/* Center Button */}
+    <button className="border border-dashed border-white px-6 py-3 text-base sm:text-lg font-semibold ">
+      FREE25FIRST
+    </button>
+    
+    {/* Right Text */}
+    <p className="text-sm sm:text-base lg:text-lg font-neue-light text-[#FFFFFFC4]/80 text-center md:text-right">
+      Use Discount code in Checkout
+    </p>
+
   </div>
+</div>
+
 
 </section>
 
