@@ -11,7 +11,7 @@ export default function Nav() {
     <>
       {/* 🔹 Top Announcement Bar */}
       <div className="w-full bg-black text-white">
-        <div className="container neue-pro py-[4px] font-semibold text-[11px] mx-auto flex items-center justify-center text-center">
+        <div className="container neue-pro py-[4px] font-semibold text-[11px] 2xl:text-[20px] mx-auto flex items-center justify-center text-center">
           <p>
             SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY - OFF 50% SHOP NOW
           </p>
@@ -33,7 +33,7 @@ export default function Nav() {
           
 
           {/* Desktop Menu Links */}
-          <div className="hidden md:flex flex-1  neue-pro space-x-8 text-sm font-medium">
+          <div className="hidden md:flex flex-1  neue-pro space-x-8 text-sm 2xl:text-[20px] font-medium">
             <Link href="/">Home</Link>
             <Link href="/shop">Shop</Link>
             <Link href="/about">About</Link>
@@ -46,24 +46,24 @@ export default function Nav() {
                 alt="Brand Logo"
                 width={105}
                 height={40}
-                className="h-[35px] w-[105px] object-contain"
+                className="h-[35px] w-[105px] 2xl:h-[55px] 2xl:w-[150px] object-contain"
                 priority
               />
             </Link>
           </div>
           {/* Right - Icons */}
-          <div className="flex space-x-4 sm:space-x-6 text-lg items-center">
+          <div className="flex space-x-4 sm:space-x-6 items-center">
             <button>
-              <img src="/images/search.png" alt="Search" className="w-3 h-3 " />
+              <img src="/images/search.png" alt="Search" className="w-3 h-3 2xl:w-5 2xl:h-5 " />
             </button>
             <button>
-              <img src="/images/heart.png" alt="Favorites" className="w-3 h-3 " />
+              <img src="/images/heart.png" alt="Favorites" className="w-3 h-3 2xl:w-5 2xl:h-5" />
             </button>
             <button>
-              <img src="/images/user.png" alt="User" className="w-3 h-3 " />
+              <img src="/images/user.png" alt="User" className="w-3 h-3 2xl:w-5 2xl:h-5 " />
             </button>
             <button>
-              <img src="/images/basket.png" alt="Basket" className="w-3 h-3 " />
+              <img src="/images/basket.png" alt="Basket" className="w-3 h-3 2xl:w-5 2xl:h-5" />
             </button>
           </div>
         </div>

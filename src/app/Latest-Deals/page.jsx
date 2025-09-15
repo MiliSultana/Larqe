@@ -18,7 +18,7 @@ export default function LatestDeals() {
     </h1>
 
     {/* Paragraph */}
-    <p className="font-neue-light lg:w-2/3 mt-3 lg:mt-0 text-[15px]  text-[#5B5B5B]/71">
+    <p className="font-neue-light lg:w-2/3 mt-3 lg:mt-0 text-[15px] sm:text-[18px] 2xl:sm:text-[22px]  text-[#5B5B5B]/71 ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
     </p>
   </div>
@@ -234,6 +234,20 @@ export default function LatestDeals() {
         </div>
       </div>
     </div>
+  </div>
+
+ <div className="mx-auto  px-6 lg:px-12 xl:px-[134px] 2xl:px-[134px] pt-[33px]">
+<div className="bg-black neue-pro py-[25px] px-[161px] flex justify-between text-white">
+    <div>
+        <h2 className="py-[14px] text-[20px]  ">Super Discount on your First Purchase</h2>
+        </div>
+ <div>
+    <button className="py-[14px] border-1 border-dashed px-[46px] ">FREE25FIRST</button>
+    </div>
+  <div>
+    <p className="py-[14px] font-neue-light text-[18px] text-[#FFFFFFC4]/77 ">Use Discount code in Checkout</p>
+    </div>
+</div>
   </div>
 
 </section>
