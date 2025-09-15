@@ -12,6 +12,7 @@ import WatchBuy from "./watch&buy/page";
 import WinterEssential from "./WinterEssentials/page";
 import FeaturedProducts from "./FeaturedProducts/page";
 import LarqeDifferent from "./LarqeDifferent/page";
+import VisitStore from "./visit-store/page";
 export default function RootLayout({}) {
   return (
     <html lang="en">
@@ -25,6 +26,7 @@ export default function RootLayout({}) {
         <WinterEssential />
         < FeaturedProducts />
         <LarqeDifferent />
+        < VisitStore />
         <BestCategori />
         <BeforeFooter />
         <Footer />

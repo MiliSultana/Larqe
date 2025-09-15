@@ -42,7 +42,7 @@ export default function BestSellar() {
   </div>
 
   {/* Product Info (below the image) */}
-  <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
+  <div className="relative md:mt-[-70px] mx-auto neue-pro xl:w-[90%] pl-6 py-[22px] bg-white">
     <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
     </p>
@@ -94,7 +94,7 @@ export default function BestSellar() {
 
 
   {/* Product Info (below the image) */}
-  <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
+  <div className="relative md:mt-[-70px] mx-auto neue-pro xl:w-[90%] pl-6 py-[22px] bg-white">
  
     <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
@@ -147,7 +147,7 @@ export default function BestSellar() {
     </div>
   </div>
   {/* Product Info (below the image) */}
-  <div className="relative lg:mt-[-70px] mx-auto neue-pro 2xl:w-[335px] pl-6 py-[22px] bg-white">
+  <div className="relative md:mt-[-70px] mx-auto neue-pro xl:w-[90%] pl-6 py-[22px] bg-white">
     <p className="text-[16px] md:text-[18px] font-neue-light text-[#5B5B5B] md:mb-2.5">
       Short Nylon-Effect Puffer Jacket
     </p>
