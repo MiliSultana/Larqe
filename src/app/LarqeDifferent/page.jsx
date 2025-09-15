@@ -21,9 +21,9 @@ export default function WinterEssential() {
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 md:gap-12 lg:gap-16 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 md:gap-12 lg:gap-16 xl:gap-0">
               {/* Card 1 */}
-              <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center text-center pr-8 lg:border-r lg:border-[#FFFFFF5C]/36  ">
                 <Image
                   src="/images/larqeDifferent1.svg"
                   alt="Logo"
@@ -38,7 +38,7 @@ export default function WinterEssential() {
               </div>
 
               {/* Card 2 */}
-              <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center text-center  px-8 lg:border-r lg:border-[#FFFFFF5C]/36">
                 <Image
                   src="/images/larqeDifferent2.svg"
                   alt="Logo"
@@ -53,7 +53,7 @@ export default function WinterEssential() {
               </div>
 
               {/* Card 3 */}
-              <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center text-center  px-8 lg:border-r lg:border-[#FFFFFF5C]/36">
                 <Image
                   src="/images/larqeDifferent3.svg"
                   alt="Logo"
@@ -68,7 +68,7 @@ export default function WinterEssential() {
               </div>
 
               {/* Card 4 */}
-              <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center text-center  px-8 lg:border-r lg:border-[#FFFFFF5C]/36">
                 <Image
                   src="/images/larqeDifferent4.svg"
                   alt="Logo"
@@ -83,7 +83,7 @@ export default function WinterEssential() {
               </div>
 
               {/* Card 5 */}
-              <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center text-center  pl-8 ">
                 <Image
                   src="/images/larqeDifferent5.svg"
                   alt="Logo"
