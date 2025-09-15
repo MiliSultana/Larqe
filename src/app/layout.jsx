@@ -10,9 +10,12 @@ import BestSellar from "./best-sellar/page";
 import ShopLook from "./shop-look/page";
 import WatchBuy from "./watch&buy/page";
 import WinterEssential from "./WinterEssentials/page";
+import LatestDeals from "./Latest-Deals/page";
 import FeaturedProducts from "./FeaturedProducts/page";
 import LarqeDifferent from "./LarqeDifferent/page";
 import VisitStore from "./visit-store/page";
+
+
 export default function RootLayout({}) {
   return (
     <html lang="en">
@@ -24,9 +27,11 @@ export default function RootLayout({}) {
         <ShopLook/>
         < WatchBuy />
         <WinterEssential />
-        < FeaturedProducts />
+        <LatestDeals />
+        <FeaturedProducts />
         <LarqeDifferent />
-        < VisitStore />
+        <VisitStore />
+        
         <BestCategori />
         <BeforeFooter />
         <Footer />

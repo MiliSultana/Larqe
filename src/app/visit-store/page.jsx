@@ -5,7 +5,7 @@
 
    
    
-   export default function WinterEssential() {
+   export default function VisitStore() {
    return (
     
     
