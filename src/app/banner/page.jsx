@@ -1,33 +1,62 @@
-// src/components/Banner.jsx
 "use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Banner() {
+  const slides = [
+    { id: 1, image: "/images/banner1.png" },
+    { id: 2, image: "/images/shopLook1.png" },
+    { id: 3, image: "/images/watchAndBuy3.3 (2).png" },
+    { id: 4, image: "/images/watchAndBuy3.3.png" },
+  ];
+
+  const [current, setCurrent] = useState(0);
+
   return (
     <section className="w-full mx-auto relative h-[60vh] md:h-[75vh] lg:h-[90vh]">
-      {/* Background Image */}
-      <Image
-        src="/images/banner1.png"
-        alt="Banner"
-        fill
-        priority
-        className="object-cover object-center"
-      />
+      {/* Background Slider */}
+      <Swiper
+        modules={[Autoplay, Navigation]}
+        /*autoplay={{ delay: 4000, disableOnInteraction: false }}*/
+        loop={true}
+        speed={1000}
+        onSlideChange={(swiper) => setCurrent(swiper.realIndex)} // track active
+        navigation={{
+          prevEl: ".custom-prev",
+          nextEl: ".custom-next",
+        }}
+        className="h-full"
+      >
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.id}>
+            <div className="relative w-full h-[60vh] md:h-[75vh] lg:h-[90vh]">
+              <Image
+                src={slide.image}
+                alt={`Banner ${slide.id}`}
+                fill
+                className="object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-black/30"></div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
-
-      {/* Content */}
-      <div className="container mx-auto relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
-        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-[48px] neue-pro tracking-[-1px]  mb-4 md:mb-6 text-white">
+      {/* Fixed Content */}
+      <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center px-4">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-[48px] neue-pro tracking-[-1px] mb-4 md:mb-6 text-white">
           Autumn - Winter ‘26 Sale
         </h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-[20px] font-neue-light text-white/90 tracking-[-0.5px] mb-6 md:mb-8 max-w-2xl">
           Browse our Top Trending: the hottest picks loved by all.
         </p>
 
-        {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <Link
             href="/shop"
@@ -44,32 +73,39 @@ export default function Banner() {
         </div>
       </div>
 
-      {/* Navigation Arrows */}
-      <button className="absolute  top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4  lg:py-6 shadow-md transition">
+      {/* Custom navigation arrows */}
+      <button className="custom-prev absolute left-3 top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4 lg:py-6 shadow-md z-20">
         <Image
           src="/images/LeftArrow.png"
-          alt="Left Arrow"
-          width={20}
+          alt="Previous"
+          width={24}
           height={40}
           className="w-4 sm:w-5 md:w-6 h-auto"
         />
       </button>
-      <button className="absolute right-0 top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4  lg:py-6 shadow-md transition">
+      <button className="custom-next absolute right-3 top-1/2 -translate-y-1/2 bg-white px-1 py-1 lg:px-4 lg:py-6 shadow-md z-20">
         <Image
           src="/images/RightArrow.png"
-          alt="Right Arrow"
-          width={20}
+          alt="Next"
+          width={24}
           height={40}
           className="w-4 sm:w-5 md:w-6 h-auto"
         />
       </button>
 
-      {/* Pagination Dots */}
-      <div className="absolute bottom-4 sm:bottom-6 w-full flex justify-center space-x-1">
-        <Image src="/images/square2.png" alt="square" width={12} height={12} className="w-3 h-3" />
-        <Image src="/images/square1.png" alt="square" width={12} height={12} className="w-3 h-3" />
-        <Image src="/images/square1.png" alt="square" width={12} height={12} className="w-3 h-3" />
-        <Image src="/images/square1.png" alt="square" width={12} height={12} className="w-3 h-3" />
+      {/* Custom dots */}
+      <div className="absolute bottom-4 sm:bottom-6 w-full flex justify-center space-x-1 z-20">
+        {slides.map((_, i) => (
+          <button key={i} className="p-0.5">
+            <Image
+              src={i === current ? "/images/square2.png" : "/images/square1.png"}
+              alt={`dot-${i}`}
+              width={12}
+              height={12}
+              className="w-3 h-3"
+            />
+          </button>
+        ))}
       </div>
     </section>
   );
