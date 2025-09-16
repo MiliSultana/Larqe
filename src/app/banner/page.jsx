@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function Banner() {
   const slides = [
@@ -17,6 +17,7 @@ export default function Banner() {
   ];
 
   const [current, setCurrent] = useState(0);
+  const swiperRef = useRef(null); // ✅ store Swiper instance
 
   return (
     <section className="w-full mx-auto relative h-[60vh] md:h-[75vh] lg:h-[90vh]">
@@ -26,6 +27,7 @@ export default function Banner() {
         /*autoplay={{ delay: 4000, disableOnInteraction: false }}*/
         loop={true}
         speed={1000}
+        onSwiper={(swiper) => (swiperRef.current = swiper)} // ✅ save swiper instance
         onSlideChange={(swiper) => setCurrent(swiper.realIndex)} // track active
         navigation={{
           prevEl: ".custom-prev",
@@ -93,10 +95,14 @@ export default function Banner() {
         />
       </button>
 
-      {/* Custom dots */}
+      {/* ✅ Custom clickable dots */}
       <div className="absolute bottom-4 sm:bottom-6 w-full flex justify-center space-x-1 z-20">
         {slides.map((_, i) => (
-          <button key={i} className="p-0.5">
+          <button
+            key={i}
+            onClick={() => swiperRef.current?.slideToLoop(i)} // ✅ jump to slide
+            className="p-0.5"
+          >
             <Image
               src={i === current ? "/images/square2.png" : "/images/square1.png"}
               alt={`dot-${i}`}
